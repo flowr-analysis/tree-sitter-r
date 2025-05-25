@@ -19,5 +19,6 @@ jobs:
     with:
       package-name: '@eagleoutice/tree-sitter-r'
       abi-version:  '14'
+      generate:     true
     secrets:
       NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
