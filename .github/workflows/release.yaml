@@ -22,5 +22,6 @@ jobs:
     uses: tree-sitter/workflows/.github/workflows/package-npm.yml@main
     with:
       package-name: '@eagleoutice/tree-sitter-r'
+      abi-version:  '14'
     secrets:
       NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
