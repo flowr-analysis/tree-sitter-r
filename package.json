@@ -6,7 +6,11 @@
   "repository": "github:r-lib/tree-sitter-r",
   "main": "bindings/node",
   "types": "bindings/node",
-  "author": "Kevin Ushey <kevin@posit.co>",
+  "author": "Florian Sihler <florian.sihler@uni-ulm.de>",
+  "contributors": [
+    "Kevin Ushey <kevin@posit.co>"
+  ],
+  "publishConfig": { "access": "public" },
   "keywords": [
     "incremental",
     "parsing",
