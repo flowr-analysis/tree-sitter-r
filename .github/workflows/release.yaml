@@ -14,11 +14,6 @@ permissions:
   attestations: write
 
 jobs:
-  release:
-    uses: tree-sitter/workflows/.github/workflows/release.yml@main
-    with:
-      attestations: true
-      abi-version:  '14'
   npm:
     uses: tree-sitter/workflows/.github/workflows/package-npm.yml@main
     with:
